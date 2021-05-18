@@ -4,24 +4,32 @@
     height: 100px;
 }
 
+
 /* main */
 .section-main {
-    height: 500px;         /* DA ELIMINARE */
+    height: 600px;         /* DA ELIMINARE */
     background-color: #1abc9c;
+    padding-top: 50px;
 }
 
-.section-main-white {    /* DA ELIMINARE */
-    text-align: center;
+.title {
+    text-transform: uppercase;
 }
 
-.container {
-    display: flex;
-    flex-wrap: wrap;
+.section-main-white {    
+    min-height: 800px;/* DA ELIMINARE */
 }
 
 .card {
-    width: calc(100% / 3 - 40px); 
-    margin: 15px;
+    margin-bottom: 20px;
+}
+
+.avatar {
+    height: 250px;
+}
+
+img {
+    height: 100%;
 }
 
 /* footer */
@@ -30,3 +38,13 @@
     background-color: #3a546d;
 }
 
+
+
+/* commons */
+.border0 {
+    border: 0;
+}
+
+.m-30 {
+    margin: 30px;
+}
