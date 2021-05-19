@@ -9,8 +9,6 @@ body {
     line-height: 100px;
 }
 
-
-
 nav li {
     font-size: 18px;
 }
@@ -117,7 +115,6 @@ footer p {
 .cover-layover:hover .over-layover {
     display: block;
 }
-
 
 /* commons */
 .border0 {
