@@ -6,13 +6,12 @@
 }
 
 .left-section-header {
-    font-size: 30px;
+    font-size: 25px;
     width: 50%;
 }
 
 nav li {
-    font-size: 20px;
-    cursor: pointer;
+    font-size: 18px;
 }
 
 .left-section-header {
@@ -72,7 +71,7 @@ img {
 
 /* footer */
 .footer-container {
-    padding: 20px 0;
+    padding: 100px 0;
     background-color: #3a546d;
 }
 
@@ -90,7 +89,7 @@ h3 {
 }
 
 footer p {
-    font-size: 18px;
+    font-size: 30px;
 }
 
 
@@ -132,7 +131,6 @@ footer p {
     border-radius: 10px;
     position: relative;
     top: 50px;
-    cursor: pointer;
 }
 
 .btn {
@@ -147,12 +145,3 @@ footer p {
     border-radius: 0;
 }
 
-@media screen and (min-width:100px) and (max-width:770px) {
-    .sm {
-        margin: 20px 0;
-    }
-
-    ul {
-        display: none;
-    }
-}
