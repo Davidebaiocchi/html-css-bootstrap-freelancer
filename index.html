@@ -7,17 +7,24 @@
     <title>bootstrap freelancer</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
 </head>
 <body>
    
     <header>
-        <div class="container-fluid container-100px">
+        <div class="container-fluid container-100px fixed-top">
             <div class="row">
-                <div class="col-6 text-center">
-                    <span style="color: white; font-size: 50px;">ciao</span>
+                <div class="col-6 text-center white text-uppercase left-section-header">
+                    start bootstrap
                 </div>
-                <div class="col-6 text-center">
-                    <span style="color: white; font-size: 50px;">ciao</span>
+                <div class="col-6 text-center right-section-header">
+                    <nav>
+                        <ul>
+                            <li class="text-uppercase white d-inline-block mr-20">portfolio</li>
+                            <li class="text-uppercase white d-inline-block mr-20">about</li>
+                            <li class="text-uppercase white d-inline-block mr-20">contact</li>
+                        </ul>
+                    </nav>
                 </div>
             </div>
         </div>
@@ -31,11 +38,23 @@
                     <img src="img/avatar.svg" alt="avatar">
                 </div>
             </div>
+            <div class="text-center">
+                <h1 class="text-uppercase white title-jumbotron">start bootstrap</h1>
+                <span class="linea"></span>
+                <span><i class="fas fa-star white"></i></span>
+                <span class="linea"></span>
+                <p class="text-uppercase white p-jumbotron">graphic artist-web designer-illustartor</p>
+            </div>
         </div>
 
         <!-- seconda parte main -->
         <div class="container-fluid section-main-white text-center">
-            <h2 class="title m-30">portfolio</h2>  
+            <div class="col-12 text-center p-tb-50">
+                <h1 class="text-uppercase title-jumbotron">portfolio</h1>
+                <span class="linea-nera"></span>
+                <span><i class="fas fa-star"></i></span>
+                <span class="linea-nera"></span>
+            </div>  
             <div class="container">
                 <div class="row">
                     <div class="border0 card col-sm-12 col-md-6 col-lg-4">
@@ -64,16 +83,27 @@
         <div class="container-fluid section-main">
             <div class="row">
                 <div class="col-12 text-center">
-                    <span style="color: black; font-size: 50px;">ciao</span>
+                    <h1 class="text-uppercase white title-jumbotron">about</h1>
+                    <span class="linea"></span>
+                    <span><i class="fas fa-star white"></i></span>
+                    <span class="linea"></span>
                 </div>
             </div>
-            <div class="row text-center">
-                <div class="col-md-6 col-sm-12">Lorem ipsum dolor sit amet consectetur</div>
-                <div class="col-md-6 col-sm-12">Lorem ipsum dolor sit amet consectetur</div>
+            <div class="container p-tb-30">
+                <div class="row text-center">
+                    <div class="col-md-6 col-sm-12 text-start white font-18">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur quas molestias reprehenderit, amet, saepe eius et deleniti deserunt ut eveniet illum libero vel, ducimus magnam corrupti optio maxime illo vitae?
+                        Minus iste consequatur necessitatibus a ipsa, magni doloribus voluptatum deleniti, optio, iure magnam? Et repellat laboriosam debitis eos reprehenderit pariatur, aut consequuntur placeat consequatur possimus quidem ducimus doloremque aperiam velit!
+                    </div> 
+                    <div class="col-md-6 col-sm-12 text-start white font-18">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur quas molestias reprehenderit, amet, saepe eius et deleniti deserunt ut eveniet illum libero vel, ducimus magnam corrupti optio maxime illo vitae?
+                        Minus iste consequatur necessitatibus a ipsa, magni doloribus voluptatum deleniti, optio, iure magnam? Et repellat laboriosam debitis eos reprehenderit pariatur, aut consequuntur placeat consequatur possimus quidem ducimus doloremque aperiam velit!
+                    </div>   
+                </div>
             </div>
-            <div class="row text-center">
-                <div class="col-12">
-                    <span style="color: black; font-size: 50px;">ciao</span>
+            <div class="row">
+                <div class="col-12 text-center">
+                    <div class="button white">
+                        <i class="fas fa-download font-18"> download</i>
+                    </div>
                 </div>
             </div>
         </div>   
@@ -81,8 +111,35 @@
         <!-- quarta parte main -->
         <div class="section-main-white text-center">
             <div class="col-12">
-                <span style="color: black; font-size: 50px;">ciao</span>
+                <div class="col-12 text-center p-tb-50">
+                    <h1 class="text-uppercase title-jumbotron">contact me</h1>
+                    <span class="linea-nera"></span>
+                    <span><i class="fas fa-star"></i></span>
+                    <span class="linea-nera"></span>
+                </div> 
             </div>
+
+            <div class="container text-start">
+                <form>
+                    <div class="m-10 ">
+                        <input class="form-control border0 b-bottom " type="text" placeholder="Name" >
+                    </div>
+                    <div class="m-10">
+                        <input class="form-control border0 b-bottom " type="email" placeholder="Email Address">  
+                    </div>
+                    <div class="m-10">
+                        <input class="form-control border0 b-bottom " type="tel" placeholder="Phone Number">
+                    </div>
+                    <div class="m-10">
+                        <textarea class="form-control border0 b-bottom " rows="5" placeholder="Message"></textarea> 
+                    </div>
+                    <br>
+                </form>
+            </div>
+        </div>
+        <div class="container">
+            <hr>
+            <div class="btn">Send</div>
         </div>
     </main>
    
@@ -91,21 +148,30 @@
     <footer>
         <div class="container-fluid footer-container">
             <div class="row text-center flex-wrap">
-                <div class="col-md-4 col-sm-12">
-                    <span style="color: black; font-size: 50px;">ciao</span>
+
+                <div class="col-md-4 col-sm-12 sm">
+                    <h3 class="text-uppercase white">location</h3>
+                    <p class="white">2215 John Daniel Drive Clark, MO <br> 54243</p>
                 </div>
-                <div class="col-md-4 col-sm-12">
-                    <span style="color: black; font-size: 50px;">ciao</span>
+
+                <div class="col-md-4 col-sm-12 sm">
+                    <h3 class="text-uppercase white">Around the web</h3>
+                    <i class="white m-10 m-5-sm fab fa-facebook-f"></i>
+                    <i class="white m-10 m-5-sm fab fa-google-plus-g"></i>
+                    <i class="white m-10 m-5-sm fab fa-twitter"></i>
+                    <i class="white m-10 m-5-sm fab fa-linkedin-in"></i>
                 </div>
-                <div class="col-md-4 col-sm-12">
-                    <span style="color: black; font-size: 50px;">ciao</span>
+
+                <div class="col-md-4 col-sm-12 sm">
+                    <h3 class="text-uppercase white">About freelancer</h3>
+                    <p class="white">Freelance is a free to use, open source <br> Bootstrap theme created by <span class="text-green">Start <br> Bootstrap</span></p>
                 </div>
             </div>
         </div>
 
         <div class="container-fluid container-100px">
-            <div class="col-12 text-center">
-                <span style="color: white; font-size: 50px;">ciao</span>
+            <div class="col-12 text-center white ">
+                Copyright © Your Website 2021
             </div>
         </div>
     </footer>
